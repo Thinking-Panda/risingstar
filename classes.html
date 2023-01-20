@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!-- Student name: Nikileshwari Prasadh
+	File Name: classes.html
+	Date:10/10/20 -->
+<html lang="en">
+<head>
+	<title>Rising Star: Classes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+	<style>
+		body, header, nav, main, footer, h1, h3, ul, article {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		
+		img {
+			max-width: 100%;
+			display: block;
+		}
+		
+		* {
+			box-sizing: border-box;
+		}
+
+		.tab-desk {
+			display: none;
+		}
+		
+		body {
+			background-color: #a3e0f7;
+		}
+		
+		header {
+			text-align: center;
+			
+		}
+		
+		header h1, h5 {
+			font-family: 'Sansita Swashed', cursive;
+			text-align: center;
+			color: #55416b;
+		}
+		
+		main {
+			padding: 3%;
+		}
+		
+		main h4 {
+			color: #55416b;
+		}
+				
+		nav {
+			background-color: #e3ca8a;
+		}
+		
+		nav ul {
+			list-style-type: none;
+			text-align: center;
+		}
+
+		nav li {
+			display: block;
+			font-size: 1.5em;
+			font-family: Geneva, Arial, sans-serif;
+			border-top: 0.5px solid #f6eee4;
+		}
+
+		nav li a {
+			display: block;
+			color: #55416b;
+			padding: 0.5em 2em;
+			text-decoration: none;
+		}
+		
+		#tuition ul {
+			list-style-type: disc;
+			margin-left: 30px;
+		}
+		
+		.call {
+			color: #1d93c2;
+			font-weight: bold;
+			font-size: 1.25em;
+			text-decoration: none;
+		}
+		
+		aside {
+			max-width: 75%;
+			margin: 10px auto 15px auto;
+			text-align: center;
+			background-color: #d5c0eb;
+			text-align: center;
+			font-weight: bold;
+			padding: 2%;
+			box-shadow: 5px 5px 8px #000;
+			border-radius: 15px;
+		}
+		
+		footer {
+			text-align: center;
+			font-size: 0.85em;
+			background-color: #e3ca8a;
+			color: #55416b;
+			padding: 1%;
+		}
+
+		footer a {
+			color: #55416b;
+			text-decoration: none;
+		}
+				
+		@media screen and (min-width: 550px), print {
+			
+			.tab-desk {
+				display:block;
+			}
+			
+			.mobile {
+				display:none;
+			}
+			
+			header {
+				font-size: 1.5em;
+			}
+			
+			nav li {
+				border-top:  none;
+				display: inline-block;
+				font-size: 1.5em;
+				border-right: 1px solid #e5e9fc;
+			}
+			
+			nav li:last-child {
+				border-right: none;
+			}
+			
+			nav li a  {
+				padding: 0.25em 0.5em;
+			}
+			
+			.grid {
+				margin: 2%;
+				display: grid;
+				grid-template-columns: 70% auto;
+				grid-gap: 20px;
+				border-bottom: 2px solid #e3ca8a;
+				padding: 20px 0;
+			}
+			
+			#toddlers {
+				padding-top: 0;
+			}
+			
+			table {
+				border: 1px solid #000;
+				border-collapse: collapse;
+				margin: 0 auto;
+				width: 100%;
+			}
+
+			caption {
+				font-family: 'Sansita Swashed', cursive;
+				color: #55416b;
+				font-size: 1.5em;
+				font-weight: bold;
+				padding: 2%;
+			}
+			
+			th, td {
+				border: 1px solid #000;
+				padding: 3%;
+			}
+						
+			th {
+				background-color: #e3ca8a;
+				color: #55416b;
+				font-size: 1.15em;
+			}
+			
+			tr:nth-child(odd) {
+				background-color: #6fd2f7;
+			}
+						
+		}
+		
+		@media screen and (min-width: 769px), print {
+
+			nav li a {
+				padding: 0.5em 1.5em;
+			}
+			
+			nav li a:hover {
+				color: #e3ca8a;
+				background-color: #55416b;
+			}
+			
+			article {
+				font-size: 1.25em;
+			}
+			
+			table {
+				width: 70%;
+			}
+		}
+		
+		@media screen and (min-width: 1921px) {
+						
+			#wrapper {
+				width: 1920px;
+				margin: 0 auto;
+			}
+			
+		}
+	
+		@media print {
+		
+			body {
+				background-color: #fff;
+				color: #000;
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 style="margin-bottom: 0; padding-bottom: 0;"><span style="font-size: 125%;color: yellow;">&star;</span>Rising Star</h1>
+		<h5 style="margin-top: 0; padding-top: 0;">Child Care Center</h5>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home </a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<!--Use the main are to add the main content to the webpage-->
+	<main>
+		<div id="wrapper">
+		
+			<div id="toddlers" class="grid">
+				<article>
+					<h4 style="font-family: 'Sansita Swashed', cursive;">Toddlers:<br>Ages: 1-2</h4>
+					<p>Children begin to explore and discover the world around them. They develop independence during meal times and build large motor skills. We also focus on improving their language skills.</p>
+				</article>
+				<img src="images/toddler-class.jpg" alt="toddler playing with blocks" class="tab-desk" style="margin: auto auto; border-radius: 10px;">
+			</div>
+					
+			<div id="twos" class="grid">
+				<article>
+					<h4 style="font-family: 'Sansita Swashed', cursive;">Twos:<br>Ages: 2-3</h4>
+					<p>Children are more independent and also begin to bond with friends. Activities are designed to meet their high-energy levels. There are a lot of opportunities to build on their language (over 50 words), and social skills.</p>
+				</article>	
+				<img src="images/twos-class.jpg" alt="child playing with blocks" class="tab-desk" style="margin: auto auto; border-radius: 10px;">
+			</div>
+			
+			<div id="preschool" class="grid">
+				<article>
+					<h4 style="font-family: 'Sansita Swashed', cursive;">Preschool:<br>Ages: 3-4</h4>
+					<p>Children start to work and play as a team. They learn through hands-on experiences and are introduced to literacy and number concepts.There is a radip development in language skills with over 250 words.</p>
+				</article>
+				<img src="images/preschool-class.jpg" alt="child painting on an easel" class="tab-desk" style="margin: auto auto;border-radius: 10px;">
+			</div>
+			
+			<div id="prek" class="grid">
+				<article>
+					<h4 style="font-family: 'Sansita Swashed', cursive;">Pre K:<br>Ages: 4-5</h4>
+					<p>Children build effective communication skills and are able to speak complex sentences.They engage in more pretend play practicing their social skills. They also develop academic skills needed for elementary schools.</p>
+				</article>	
+				<img src="images/prek-class.jpg" alt="children working as a team" class="tab-desk" style="margin: auto auto; border-radius: 10px;">
+			</div>
+			
+			<div id="tuition" class="mobile">
+				<p style="font-weight: bold;">We offer flexible schedules of 2 days, 3 days or 5 days per week to meet your needs.</p>
+				<p style="font-weight: bold;">Tuition fee details:</p>
+				<ul>
+					<li>Toddlers: Starting at $90/ week</li>
+					<li>Twos: Starting at $85/ week</li>
+					<li>Preschool: Starting at $65/ week</li>
+					<li>Pre K: Starting at $65/ week</li>
+				</ul>
+			</div>
+			
+			<div class="tab-desk">
+				<table>
+					<caption>Tuition Fee Details</caption>
+					<tr><!--Row 1-->
+						<th>Classroom</th>
+						<th>2 Days / Week</th>
+						<th>3 Days / Week</th>
+						<th>5 Days / Week</th>
+					</tr>
+					<tr><!--Row 2-->
+						<td>Toddlers</td>
+						<td>$90</td>
+						<td>$115</td>
+						<td>$170</td>
+					</tr>
+					<tr><!--Row 3-->
+						<td>Twos</td>
+						<td>$85</td>
+						<td>$105</td>
+						<td>$160</td>
+					</tr>
+					<tr><!--Row 4-->
+						<td>Preschool</td>
+						<td>$65</td>
+						<td>$95</td>
+						<td>$150</td>
+					</tr>
+					<tr><!--Row 5-->
+						<td>Pre K</td>
+						<td>$65</td>
+						<td>$95</td>
+						<td>$150</td>
+					</tr>
+				</table>
+			</div>	
+			
+			<aside>
+				<p><a href="contact.html" class="call">Book a tour</a> to visit our classrooms.</p>
+			</aside>
+			
+		</div>
+	
+	</main>
+	
+	<footer>
+		<p> &copy; Copyright 2021. All rights reserved.</p>
+		<p> <a href="mailto:contact@risingstar.net">contact@risingstar.net</a></p>
+	</footer>
+</body>

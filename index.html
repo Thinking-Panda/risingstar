@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- Student name: Nikileshwari Prasadh
+	File Name: index.html
+	Date:10/10/20 -->
+<html lang="en">
+<head>
+	<title>Rising Star: Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+	<style>
+		body, header, nav, main, footer, h1, h3, ul {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		
+		img {
+			max-width: 100%;
+			display: block;
+		}
+		
+		* {
+			box-sizing: border-box;
+		}		
+		
+		.tab-desk {
+			display: none;
+		}
+		
+		header {
+			text-align: center;
+			
+		}
+		
+		header h1, h5 {
+			font-family: 'Sansita Swashed', cursive;
+			text-align: center;
+			color: #55416b;
+		}
+		
+		body {
+			background-color: #a3e0f7;
+		}
+		
+		h3 {
+			padding-top: 1em;
+			font-family: 'Sansita Swashed', cursive;
+			color: #55416b;
+		}
+		main {
+			padding: 2%;
+		}
+		
+		nav {
+			background-color: #e3ca8a;
+		}
+		
+		nav ul {
+			list-style-type: none;
+			text-align: center;
+		}
+
+		nav li {
+			display: block;
+			font-size: 1.5em;
+			font-family: Geneva, Arial, sans-serif;
+			border-top: 0.5px solid #f6eee4;
+		}
+
+		nav li a {
+			display: block;
+			color: #55416b;
+			padding: 0.5em 2em;
+			text-decoration: none;
+		}
+		
+		.call {
+			color: #1d93c2;
+			font-weight: bold;
+			font-size: 1.25em;
+			text-decoration: none;
+		}
+		
+		aside {
+			max-width: 70%;
+			margin: 0 auto 15px auto;
+			text-align: center;
+			background-color: #d5c0eb;
+			text-align: center;
+			font-weight: bold;
+			padding: 2%;
+			box-shadow: 5px 5px 8px #000;
+			border-radius: 15px;
+		}
+		
+		footer {
+			text-align: center;
+			font-size: 0.85em;
+			background-color: #e3ca8a;
+			color: #55416b;
+			padding: 1%;
+		}
+
+		footer a {
+			color: #55416b;
+			text-decoration: none;
+		}
+		
+		@media screen and (min-width: 550px), print {
+			
+			.tab-desk {
+				display:block;
+			}
+			
+			.mobile {
+				display:none;
+			}
+			
+			header {
+				font-size: 1.5em;
+			}
+			
+			nav li {
+				border-top:  none;
+				display: inline-block;
+				font-size: 1.5em;
+				border-right: 1px solid #e5e9fc;
+			}
+			
+			nav li:last-child {
+				border-right: none;
+			}
+			
+			nav li a  {
+				padding: 0.25em 0.5em;
+			}
+			
+			#hero img {
+				margin: 2% auto 0 auto;
+			}
+					
+			.grid {
+				padding: 2% 0;
+				display: grid;
+				grid-template-columns: 75% auto;
+				grid-gap: 20px;
+			}
+			
+			.grid-pic {
+				border-radius: 10px;
+			}
+		}
+
+		@media screen and (min-width: 769px), print {
+
+			nav li a {
+				padding: 0.5em 1.5em;
+			}
+			
+			nav li a:hover {
+				color: #e3ca8a;
+				background-color: #55416b;
+			}
+			
+			article {
+				font-size: 1.25em;
+			}
+		}
+		
+		@media screen and (min-width: 1921px) {
+			
+			#wrapper {
+				width: 1920px;
+				margin: 0 auto;
+			}
+		}	
+		
+		@media print {
+		
+			body {
+				background-color: #fff;
+				color: #000;
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 style="margin-bottom: 0; padding-bottom: 0;"><span style="font-size: 125%;color: yellow;">&star;</span>Rising Star</h1>
+		<h5 style="margin-top: 0; padding-top: 0;">Child Care Center</h5>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home </a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Hero Image-->
+	<div id="hero" class="tab-desk">
+		<img src="images/children.png" alt="children-clipart">
+	</div>
+	
+	<!--Use the main are to add the main content to the webpage-->
+	<main>
+		<div id="wrapper">
+							
+			<div id="philosophy" class="grid">
+				<article>
+					<h3>Our Philosophy:</h3>	
+					<p>We believe that laying a strong foundation in the early years is essential to a child's bright future. Children are young, innocent and curious grasping ideas very easily. Children feel connected to the learning environment when it is safe, comfortable and there are opportunities for active participation.</p>
+				</article>
+				<img src="images/philosophy.jpg" alt="boy playing with abacus" class="grid-pic tab-desk" style="margin: auto 0;">
+			</div>
+			
+			<div id="history" class="grid">
+				<article>
+					<h3>Our History:</h3>	
+					<p>Rising Star Childcare Center has been serving the community for the past five years. We started with a small group of four toddlers and have grown gradually to have four classes with children of ages 1-5. In 2018, we moved to our current location to accomodate more children.</p>
+				</article>
+				<img src="images/history.jpg" alt="boy standing by railing" class="grid-pic tab-desk" style="margin: auto 0;">
+			</div>
+			
+			<aside>
+				<h3>Special Events:</h3>
+				<p>Halloween Party with class to class Trick-or-Treat fun.</p>
+				<h3>Special Offers:</h3>
+				<p>Enjoy a free trial day before you register</p>
+				<p>Discounted Registration fee when you sign-up now through October 30. <a href="contact.html" class="call">Call us</a> for more details.</p>
+			</aside>
+		
+		</div>
+	
+	</main>
+	
+	<footer>
+		<p> &copy; Copyright 2021. All rights reserved.</p>
+		<p> <a href="mailto:contact@risingstar.net">contact@risingstar.net</a></p>
+	</footer>
+</body>
